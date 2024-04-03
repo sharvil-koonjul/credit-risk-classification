@@ -42,3 +42,6 @@ Recall:
 
 Accuracy:
 - 99% of this model's predictions were correct as we are calculating the total number of instances that were predicted correctly compared to the total number of instances
+
+I would recommend this model for use because it performs very well with identifying the two loan classes. Overall, it helps us to make data-driven decisions when it comes to lending to borrowers.
+We have very high accuracy, precision and F1-scores which makes the model very reliable. It definitely needs to be re-evaluated over time to monitor for consistent performance. It is however important to consider the potential risks associated with having false positives and false negatives in the model. 
