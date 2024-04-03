@@ -5,14 +5,14 @@
 The purpose of this analysis was to review historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 Our column headers in the data set were:
-loan_size - the amount of the loan being requested
-interest_rate - percentage of the interest rate on the loan
-borrower_income	- the income of the person borrowing
-debt_to_income - this is a percentage of the total debt to the income - higher % means a higher debt ratio 
-num_of_accounts	- this is the number of borrowing accounts the borrower has open or active
-derogatory_marks - these marks refer to any negative instances such as missed payments 
-total_debt	- accumulation of all of the debt across all accounts
-loan_status - refers to whether the loan is healthy or at risk of defaulting
+- loan_size - the amount of the loan being requested
+- interest_rate - percentage of the interest rate on the loan
+- borrower_income	- the income of the person borrowing
+- debt_to_income - this is a percentage of the total debt to the income - higher % means a higher debt ratio
+- num_of_accounts	- this is the number of borrowing accounts the borrower has open or active
+- derogatory_marks - these marks refer to any negative instances such as missed payments
+- total_debt	- accumulation of all of the debt across all accounts
+- loan_status - refers to whether the loan is healthy or at risk of defaulting
 
 The goal with this model was to develop a predictive model that would be able to classify loans into the two loan status categories based on the other features in our dataset- whether a loan is healthy or at risk.
 
