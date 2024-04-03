@@ -25,12 +25,13 @@ The goal with this model was to develop a predictive model that would be able to
 ## Results
 
 Our generated confusion matrix gave us the following information:
-    1. 18663 correctly predicted instances for true negatives
-    2. 102 incorrectly predicted instances for false negatives
-    3. 56 incorrectly predicted instances for false positives
-    4. 563 instances predicted instances for true positives
+- 18663 correctly predicted instances for true negatives
+- 102 incorrectly predicted instances for false negatives
+- 56 incorrectly predicted instances for false positives
+- 563 instances predicted instances for true positives
 
-Our classification report gave us the following information:
+
+#### Our classification report gave us the following information:
 Precision:
 - For our healthy loans, we have a 1.00 precision ratio - which means that all predictions were correctly classified under class '0'. There were no false positives for this class.
 - For at-risk loans, we have a 0.85 precision ratio - which means that about 85% of the predictions were correctly classified as class '1'.
